@@ -10,7 +10,7 @@
     color: #ccc;
 }
 .kiwi-wrap--monospace {
-    font-family: Liberation Mono, Ubuntu Mono, Fira Mono, monospace;
+    font-family: Hack, Liberation Mono, Ubuntu Mono, Fira Mono, monospace;
 }
 
 .kiwi-workspace:before {
