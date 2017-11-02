@@ -323,7 +323,6 @@
 */
 
 .kiwi-messagelist-message {
-    border-top: 1px solid #f7f5f5;
     /* some message highlights add a left border so add a default invisble one to keep them inline */
     border-left: 3px solid transparent;
 }
@@ -335,8 +334,6 @@
     border-left-color: #0DBC79;
 }
 .kiwi-messagelist-message--hover {
-    background: #393D45;
-    border-left-color: #0DBC79;
 }
 .kiwi-messagelist-message--info-open {
     background: #f6f6f6;
