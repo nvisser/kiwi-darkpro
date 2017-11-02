@@ -174,14 +174,14 @@
 }
 
 .kiwi-statebrowser-channel-popup {
-    background: #383838;
-    border: 3px solid #6b6b6b;
+    background: #282C34;
+    border: 3px solid #393D45;
     border-left: none;
 }
 
 .kiwi-statebrowser-newchannel-inputwrap {
     border-radius: 3px;
-    background: #fff;
+    background: #393D45;
     position: relative;
     opacity: 0.8;
     transition: opacity 0.3s;
@@ -191,7 +191,7 @@
 }
 
 .kiwi-statebrowser-options {
-    background: #383838;
+    background: #282C34;
 }
 
 
