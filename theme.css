@@ -266,6 +266,11 @@
     color: #5f5f5f;
 }
 
+.kiwi-messagelist-message-topic {
+    text-align: left;
+    white-space: nowrap;
+}
+
 .kiwi-header-buffersettings {
     border-top: 1px solid #E3DADA;
 }
