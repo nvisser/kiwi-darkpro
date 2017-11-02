@@ -335,6 +335,9 @@
     /* some message highlights add a left border so add a default invisble one to keep them inline */
     border-left: 3px solid transparent;
 }
+.kiwi-messagelist-message a:link, .kiwi-messagelist-messag a:visited {
+    color: #11A8CD;
+}
 .kiwi-messagelist-message-whois {
     border-left-color: #939393;
 }
