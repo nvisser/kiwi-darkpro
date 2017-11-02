@@ -267,6 +267,7 @@
 }
 
 .kiwi-messagelist-message-topic {
+    margin-right: 0;
     text-align: left;
     white-space: nowrap;
 }
