@@ -368,10 +368,12 @@
 .kiwi-messagelist-message--compact .kiwi-messagelist-time {
     float: left;
 }
-.kiwi-messagelist-message--compact .kiwi-messagelist-nick::before[data-nick]:not([data-nick=""]) {
+.kiwi-messagelist-message--compact .kiwi-messagelist-nick:not([data-nick=""])::before {
+    color: #393D45;
     content: '<';
 }
-.kiwi-messagelist-message--compact .kiwi-messagelist-nick::after[data-nick]:not([data-nick=""]) {
+.kiwi-messagelist-message--compact .kiwi-messagelist-nick:not([data-nick=""])::after {
+    color: #393D45;
     content: '>';
 }
 
