@@ -116,6 +116,8 @@
   border: none;
   border-bottom: 1px solid #147a51;
   color: #2d3139; }
+  .u-button-primary:hover, .u-button-secondary:hover {
+    color: #e5e5e5; }
 
 .u-button-secondary {
   color: #C8C8C8 !important;
