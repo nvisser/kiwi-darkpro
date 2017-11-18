@@ -4,32 +4,6 @@ a, .u-link {
         color: darken($col-03, 20%);
     }
 }
-.u-button {
-    color: $col-01;
-    border-radius: 3px;
-    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-    vertical-align: middle;
-    text-align: center;
-    outline: none;
-}
-.u-button:hover {
-    opacity: 0.75;
-}
-.u-button-primary {
-    background-color: $col-03;
-    border: none;
-    border-bottom: 1px solid darken($col-03, 20%);
-    color: $term-fg;
-}
-.u-button-secondary {
-    background: rgba(117, 117, 117, 0.07);
-    border-bottom: 1px solid rgba(117, 117, 117, 0.2);
-}
-.u-button-warning {
-    background-color: $col-04;
-    border-bottom: 1px solid darken($col-04, 20%);
-    color: lighten($col-04, 20%) !important;
-}
 
 input, textarea {
     background: $term-bg;

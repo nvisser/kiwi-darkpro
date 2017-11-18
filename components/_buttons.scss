@@ -1,5 +1,5 @@
 .u-button {
-    color: #2c3e50;
+    color: $term-fg;
     border-radius: 3px;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
     vertical-align: middle;
@@ -17,10 +17,13 @@
 }
 .u-button-secondary {
     color: $term-fg !important;
-    border: inherit;
+    background: rgba(117, 117, 117, 0.07);
+    border-bottom: 1px solid rgba(117, 117, 117, 0.2);
 }
 .u-button-warning {
     background-color: $col-04;
     border-bottom: 1px solid darken($col-04, 20%);
-    color: $term-fg;
+    &:hover {
+        color: $col-00;
+    }
 }
