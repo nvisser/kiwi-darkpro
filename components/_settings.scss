@@ -1,0 +1,27 @@
+/**
+* Network settings
+*/
+
+.kiwi-networksettings-error {
+    border: 1px dashed #d86f6f;
+}
+.kiwi-networksettings-danger h3 {
+    background: #d86f6f;
+}
+
+
+
+/**
+* Alias settings
+*/
+.kiwi-settings-aliases-input {
+    border-color: #cccccc;
+}
+.kiwi-settings-aliases-help {
+    background: #f3f2f2;
+    border: 1px dashed gray;
+}
+.kiwi-settings-aliases-help em {
+    color: #ab1010;
+    background: #fff6a5;
+}

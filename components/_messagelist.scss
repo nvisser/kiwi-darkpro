@@ -3,62 +3,36 @@
 */
 
 .kiwi-messagelist-message {
+    border-top: 1px solid #f7f5f5;
     /* some message highlights add a left border so add a default invisble one to keep them inline */
     border-left: 3px solid transparent;
 }
-.kiwi-messagelist-message a:link, .kiwi-messagelist-messag a:visited {
-    color: #11A8CD;
+.kiwi-messagelist-message--modern {
+    border-left: 7px solid transparent;
+}
+.kiwi-messagelist-message--modern.kiwi-messagelist-message-topic {
+    margin: 18px;
 }
 .kiwi-messagelist-message-whois {
     border-left-color: #939393;
 }
 .kiwi-messagelist-message--highlight {
-    background: #393D45;
-    border-left-color: #0DBC79;
+    background: #e3f1d4;
+    border-left-color: #80ab52;
 }
 .kiwi-messagelist-message--hover {
+    background: #e3f1d4;
+    border-left-color: #80ab52;
 }
 .kiwi-messagelist-message--info-open {
     background: #f6f6f6;
-}
-
-.kiwi-messagelist-seperator {
-    /* color: #ccc; */
-}
-
-.kiwi-messagelist-seperator span {
-    background: #393D45;
-    color: #ccc;
-}
-.kiwi-messagelist-seperator::after {
-    content: "";
-    display: block;
-    border-bottom: 1px solid #11A8CD;
-    position: relative;
-    top: -.8em;
 }
 
 .kiwi-messagelist-message > div {
 }
 
 .kiwi-messagelist-time {
-    color: #c1c1c1;
-}
-
-.kiwi-messagelist-message--compact .kiwi-messagelist-time {
-    float: left;
-}
-.kiwi-messagelist-message--compact .kiwi-messagelist-nick:not([data-nick=""])::before {
-    color: #393D45;
-    content: '<';
-}
-.kiwi-messagelist-message--compact .kiwi-messagelist-nick:not([data-nick=""])::after {
-    color: #393D45;
-    content: '>';
-}
-
-.kiwi-messagelist-message-repeat .kiwi-messagelist-nick, .kiwi-messagelist-message-repeat .kiwi-messagelist-time {
-    opacity: 1.0 !important;
+    color: #a5a5a5;
 }
 
 
@@ -77,11 +51,12 @@
 .kiwi-messagelist-message--unread {
     border-left-color: #d4e5f1;
 }
-.kiwi-messagelist-message--unread:last-of-type::after {
-    content: "Unread messages";
-    font-style: italic;
-    background: #393D45;
-    display: block;
+
+.kiwi-messagelist-seperator:after {
+    border-color: #ddd;
+}
+.kiwi-messagelist-seperator + .kiwi-messagelist-message {
+    border-top: none;
 }
 
 .kiwi-messagelist-body .kiwi-nick {
@@ -89,19 +64,13 @@
 
 /* Topic changes */
 .kiwi-messagelist-message-topic {
-    /* background: #282C34; */
-    /* border: 1px solid #393D45; */
-    background: #282C34;
-    border: 1px solid #393D45;
+    background: #FFF5AB;
+    border: 1px solid #F3C572;
     border-radius: 5px;
 }
 
 .kiwi-messagelist-message-traffic-join {
     color: #009900;
-}
-.kiwi-messagelist-message-traffic-join .kiwi-nick:before {
-    color: #009900;
-    content: "→ ";
 }
 .kiwi-messagelist-message-traffic-quit,
 .kiwi-messagelist-message-traffic-part,
@@ -117,15 +86,26 @@
     color: #009900;
 }
 
+/* MOTD */
+.kiwi-messagelist-message-motd {
+    color: #666;
+}
+
+/* Errors */
+.kiwi-messagelist-message-error {
+    background: #f1d4d4;
+    border-left-color: #ab5252;
+}
+
 /**
 * Message list
 */
 
 .kiwi-messageinfo {
     background: #f6f6f6;
-    border-bottom: 2px #E3DADA solid;
-    border-top: 1px #E3DADA dashed;
+    border-bottom: 2px #dddddd solid;
+    border-top: 1px #dddddd dashed;
 }
 .kiwi-messageinfo-urls {
-    border-top: 1px solid #E3DADA;
+    border-top: 1px solid #dddddd;
 }

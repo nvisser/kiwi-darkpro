@@ -3,19 +3,19 @@
 */
 
 .kiwi-container {
-    border-bottom: 1px solid #E3DADA;
+    border-bottom: 1px solid #dddddd;
 }
 
 .kiwi-container-toggledraw-statebrowser,
 .kiwi-container-toggledraw-sidebar {
-    background: #393D45;
-    border-bottom: 1px solid #E3DADA;
+    background: #fff;
+    border-bottom: 1px solid #dddddd;
 }
 .kiwi-container-toggledraw-statebrowser {
-    border-right: 1px solid #E3DADA;
+    border-right: 1px solid #dddddd;
 }
 .kiwi-container-toggledraw-sidebar {
-    border-left: 1px solid #E3DADA;
+    border-left: 1px solid #dddddd;
 }
 .kiwi-container-toggledraw-sidebar--disabled {
     color: #b8babd;

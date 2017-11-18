@@ -4,87 +4,29 @@
 */
 
 @import 'https://kiwiirc.com/nextclient/static/themes/common/layout.css';
-@import 'components/_buttons',
-        'components/_colors',
-        'components/_bufferheader',
+@import 'components/_bufferheader',
         'components/_buttons',
+        'components/_channellist',
         'components/_colors',
         'components/_container',
         'components/_controlinput',
         'components/_input',
         'components/_messagelist',
+        'components/_settings',
         'components/_sidebar',
         'components/_statebrowser',
-        'components/_userbox';
+        'components/_userbox',
+        'components/_welcome';
+
 
 .kiwi-wrap {
-    font-family: Source Sans Pro, Helvetica, sans-serif;
-    color: #ccc;
-}
-.kiwi-wrap--monospace {
-    font-family: Hack, Liberation Mono, Ubuntu Mono, Fira Mono, monospace;
+    color: #2c3e50;
+    --kiwi-nick-brightness: 40;
 }
 
 .kiwi-workspace:before {
-    /* The top bar at the top of the startup page */
 }
 
 .kiwi-workspace-background {
-    background: #282C34;
+    background: #fff;
 }
-
-.u-link {
-    color: #8AE234;
-}
-
-/**
-* Settings
-*/
-.kiwi-networksettings-advanced h3 {
-    cursor: pointer;
-}
-
-/* MOTD */
-.kiwi-messagelist-message-motd {
-    color: #666;
-}
-
-/* Errors */
-.kiwi-messagelist-message-error {
-    background: #F14C4C;
-    border-left-color: #CD3131;
-}
-
-/**
-* Network settings
-*/
-
-.kiwi-networksettings-danger h3 {
-    background: #d86f6f;
-}
-
-/**
-* Alias settings
-*/
-.kiwi-settings-aliases-input {
-    border-color: #cccccc;
-}
-.kiwi-settings-aliases-help {
-    background: #393D45;
-    border: 1px dashed gray;
-}
-.kiwi-settings-aliases-help em {
-    color: #ab1010;
-    background: #fff6a5;
-}
-
-/**
-* Welcome startup screen
-*/
-
-.kiwi-welcome-simple-start[disabled] {
-    opacity: 0.65;
-}
-
-
-

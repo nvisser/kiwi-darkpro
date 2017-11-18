@@ -3,20 +3,9 @@
 */
 
 .kiwi-sidebar {
-    background-color: #282C34;
-    border-left: 1px solid #E3DADA;
+    background-color: #fff;
+    border-left: 1px solid #dddddd;
 }
-
-/**
- * Banlist
- */
- table.kiwi-channelbanlist-table > tr:hover > td {
-     background: #393D45;
- }
- .kiwi-channelbanlist-table-actions > i {
-     /* Hand cursor for the remove icon */
-     cursor: pointer;
- }
 
 
 
@@ -25,5 +14,5 @@
 */
 
 .kiwi-nicklist-info {
-    border-color: #E5E5E5;
+    border-color: #ddd;
 }
