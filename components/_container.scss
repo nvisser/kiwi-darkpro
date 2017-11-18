@@ -1,0 +1,22 @@
+/**
+* Container (Nicklist / header / control input wrapper)
+*/
+
+.kiwi-container {
+    border-bottom: 1px solid #E3DADA;
+}
+
+.kiwi-container-toggledraw-statebrowser,
+.kiwi-container-toggledraw-sidebar {
+    background: #393D45;
+    border-bottom: 1px solid #E3DADA;
+}
+.kiwi-container-toggledraw-statebrowser {
+    border-right: 1px solid #E3DADA;
+}
+.kiwi-container-toggledraw-sidebar {
+    border-left: 1px solid #E3DADA;
+}
+.kiwi-container-toggledraw-sidebar--disabled {
+    color: #b8babd;
+}

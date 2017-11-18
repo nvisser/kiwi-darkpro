@@ -1,0 +1,34 @@
+.input-text,input {
+    background: #393D45;
+    color: #ccc;
+}
+.input-text-label {
+    color: gray;
+}
+.input-text--focus {
+    border-color: #0DBC79;
+}
+.input-text-underline {
+    border-color: #a9a9a9;
+}
+.input-text-underline-active {
+    background: #0DBC79;
+}
+
+.u-form .u-input,
+.u-form textarea {
+    border: 1px solid #cccccc;
+    border-bottom: 2px solid #0DBC79;
+    background: #393D45;
+    color: #ccc;
+    outline-color: #0DBC79;
+}
+
+.u-tabbed-view-tabs {
+    border-bottom: 1px solid #E5E5E5;
+}
+.u-tabbed-view-tab {
+    border-color: #0DBC79;
+    transition: border-width 0.1s;
+    font-weight: bold;
+}

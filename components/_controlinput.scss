@@ -1,0 +1,38 @@
+/**
+* Control input
+*/
+
+.kiwi-controlinput {
+}
+.kiwi-controlinput-inner {
+}
+.kiwi-controlinput-user {
+    border-right: 1px solid #E3DADA;
+}
+.kiwi-controlinput-input-wrap {
+    background: #393D45;
+}
+.kiwi-controlinput-selfuser {
+    background: #393D45;
+}
+.kiwi-controlinput-active-tool {
+    background: #393D45;
+}
+
+
+
+/**
+* Control input (the bottom bar)
+*/
+
+.kiwi-autocomplete {
+    box-shadow: 0 1px 15px rgba(64, 54, 63, 0.25);
+    border: 1px solid #CCC;
+    background: #393D45;
+}
+.kiwi-autocomplete-item {
+    border-bottom: 1px solid #CCC;
+}
+.kiwi-autocomplete-item--selected {
+    background: #000000;
+}

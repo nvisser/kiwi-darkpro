@@ -1,0 +1,25 @@
+.u-button {
+    color: #2c3e50;
+    border-radius: 3px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    vertical-align: middle;
+    text-align: center;
+    outline: none;
+    :hover {
+        opacity: 0.75;
+    }
+}
+.u-button-primary, .u-button-secondary {
+    background-color: #8AE234;
+    border: none;
+    border-bottom: 1px solid #0DBC79;
+    color: #393D45;
+}
+.u-button-secondary {
+    border: inherit;
+}
+.u-button-warning {
+    background-color: #ca3c3c;
+    border-bottom: 1px solid #5f1515;
+    color: #fff4f4;
+}

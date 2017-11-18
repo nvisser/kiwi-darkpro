@@ -1,0 +1,67 @@
+/**
+* State browser
+*/
+
+.kiwi-statebrowser {
+    background: #282C34;
+    /* this also looks cool, background: #05394a; */
+    color: #cccccc;
+}
+
+.kiwi-statebrowser-usermenu {
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+
+.kiwi-statebrowser-availablenetworks {
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+.kiwi-statebrowser-availablenetworks-toggle {
+    background: rgba(255,255,255,0.15);
+}
+.kiwi-statebrowser-availablenetworks-link {
+    border-right: 15px solid red;
+}
+.kiwi-statebrowser-availablenetworks-link--connected {
+    border-color: green;
+}
+
+.kiwi-statebrowser-channel-notjoined .kiwi-statebrowser-channel-name {
+    color: #d03232;
+}
+.kiwi-statebrowser-channel-active .kiwi-statebrowser-channel-name {
+    border-left: 3px solid #df6b26;
+    padding-left: 5px;
+}
+
+.kiwi-statebrowser-channel-label {
+    background: green;
+    color: #dedede;
+}
+
+.kiwi-statebrowser-channel-label-transition-enter-active, .kiwi-statebrowser-channel-label-transition-leave-active {
+    transition: opacity 0.1s;
+}
+.kiwi-statebrowser-channel-label-transition-enter, .kiwi-statebrowser-channel-label-transition-leave-active {
+    opacity: 0;
+}
+
+.kiwi-statebrowser-channel-popup {
+    background: #282C34;
+    border: 3px solid #393D45;
+    border-left: none;
+}
+
+.kiwi-statebrowser-newchannel-inputwrap {
+    border-radius: 3px;
+    background: #393D45;
+    position: relative;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+}
+.kiwi-statebrowser-newchannel-inputwrap--focus {
+    opacity: 1;
+}
+
+.kiwi-statebrowser-options {
+    background: #282C34;
+}

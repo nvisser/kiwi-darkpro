@@ -1,0 +1,131 @@
+/**
+* Message list
+*/
+
+.kiwi-messagelist-message {
+    /* some message highlights add a left border so add a default invisble one to keep them inline */
+    border-left: 3px solid transparent;
+}
+.kiwi-messagelist-message a:link, .kiwi-messagelist-messag a:visited {
+    color: #11A8CD;
+}
+.kiwi-messagelist-message-whois {
+    border-left-color: #939393;
+}
+.kiwi-messagelist-message--highlight {
+    background: #393D45;
+    border-left-color: #0DBC79;
+}
+.kiwi-messagelist-message--hover {
+}
+.kiwi-messagelist-message--info-open {
+    background: #f6f6f6;
+}
+
+.kiwi-messagelist-seperator {
+    /* color: #ccc; */
+}
+
+.kiwi-messagelist-seperator span {
+    background: #393D45;
+    color: #ccc;
+}
+.kiwi-messagelist-seperator::after {
+    content: "";
+    display: block;
+    border-bottom: 1px solid #11A8CD;
+    position: relative;
+    top: -.8em;
+}
+
+.kiwi-messagelist-message > div {
+}
+
+.kiwi-messagelist-time {
+    color: #c1c1c1;
+}
+
+.kiwi-messagelist-message--compact .kiwi-messagelist-time {
+    float: left;
+}
+.kiwi-messagelist-message--compact .kiwi-messagelist-nick:not([data-nick=""])::before {
+    color: #393D45;
+    content: '<';
+}
+.kiwi-messagelist-message--compact .kiwi-messagelist-nick:not([data-nick=""])::after {
+    color: #393D45;
+    content: '>';
+}
+
+.kiwi-messagelist-message-repeat .kiwi-messagelist-nick, .kiwi-messagelist-message-repeat .kiwi-messagelist-time {
+    opacity: 1.0 !important;
+}
+
+
+.kiwi-messagelist-message-repeat {
+    border-top: none;
+}
+.kiwi-messagelist-message-repeat .kiwi-messagelist-nick,
+.kiwi-messagelist-message-repeat .kiwi-messagelist-time {
+    /* Set the opacity instead of making it invisible so that it's still selectable when copying text */
+    opacity: 0;
+    cursor: default;
+}
+
+.kiwi-messagelist-message:not(.kiwi-messagelist-message--unread) + .kiwi-messagelist-message--unread {
+}
+.kiwi-messagelist-message--unread {
+    border-left-color: #d4e5f1;
+}
+.kiwi-messagelist-message--unread:last-of-type::after {
+    content: "Unread messages";
+    font-style: italic;
+    background: #393D45;
+    display: block;
+}
+
+.kiwi-messagelist-body .kiwi-nick {
+}
+
+/* Topic changes */
+.kiwi-messagelist-message-topic {
+    /* background: #282C34; */
+    /* border: 1px solid #393D45; */
+    background: #282C34;
+    border: 1px solid #393D45;
+    border-radius: 5px;
+}
+
+.kiwi-messagelist-message-traffic-join {
+    color: #009900;
+}
+.kiwi-messagelist-message-traffic-join .kiwi-nick:before {
+    color: #009900;
+    content: "→ ";
+}
+.kiwi-messagelist-message-traffic-quit,
+.kiwi-messagelist-message-traffic-part,
+.kiwi-messagelist-message-traffic-kick {
+    color: #900;
+}
+.kiwi-messagelist-message-traffic-quit .kiwi-nick:before,
+.kiwi-messagelist-message-traffic-part .kiwi-nick:before, {
+    color: #900;
+    content: "← ";
+}
+.kiwi-messagelist-message-action .kiwi-messagelist-body {
+    color: #009900;
+}
+
+/**
+* Message list
+*/
+
+.kiwi-messageinfo {
+    background: #f6f6f6;
+    border-bottom: 2px #E3DADA solid;
+    border-top: 1px #E3DADA dashed;
+}
+.kiwi-messageinfo-urls {
+    border-top: 1px solid #E3DADA;
+}
