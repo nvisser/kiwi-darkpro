@@ -102,7 +102,7 @@
   background-color: #e5e5e5; }
 
 .u-button {
-  color: #2c3e50;
+  color: #C8C8C8;
   border-radius: 3px;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   vertical-align: middle;
@@ -119,12 +119,14 @@
 
 .u-button-secondary {
   color: #C8C8C8 !important;
-  border: inherit; }
+  background: rgba(117, 117, 117, 0.07);
+  border-bottom: 1px solid rgba(117, 117, 117, 0.2); }
 
 .u-button-warning {
   background-color: #f14c4c;
-  border-bottom: 1px solid #c71010;
-  color: #C8C8C8; }
+  border-bottom: 1px solid #c71010; }
+  .u-button-warning:hover {
+    color: #e5e5e5; }
 
 /**
 * Buffer header (channel name + topic)
@@ -173,32 +175,6 @@ a, .u-link {
   color: #98c379; }
   a:hover, .u-link:hover {
     color: #649442; }
-
-.u-button {
-  color: #2d3139;
-  border-radius: 3px;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-  vertical-align: middle;
-  text-align: center;
-  outline: none; }
-
-.u-button:hover {
-  opacity: 0.75; }
-
-.u-button-primary {
-  background-color: #98c379;
-  border: none;
-  border-bottom: 1px solid #649442;
-  color: #C8C8C8; }
-
-.u-button-secondary {
-  background: rgba(117, 117, 117, 0.07);
-  border-bottom: 1px solid rgba(117, 117, 117, 0.2); }
-
-.u-button-warning {
-  background-color: #f14c4c;
-  border-bottom: 1px solid #c71010;
-  color: #f8abab !important; }
 
 input, textarea {
   background: #282C34;
