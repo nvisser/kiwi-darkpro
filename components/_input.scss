@@ -1,8 +1,11 @@
-.u-link {
-    color: #42b983;
+a, .u-link {
+    color: $col-03;
+    &:hover {
+        color: darken($col-03, 20%);
+    }
 }
 .u-button {
-    color: #2c3e50;
+    color: $col-01;
     border-radius: 3px;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
     vertical-align: middle;
@@ -13,9 +16,9 @@
     opacity: 0.75;
 }
 .u-button-primary {
-    background-color: #86b32d;
+    background-color: $col-03;
     border: none;
-    border-bottom: 1px solid #5d7d1f;
+    border-bottom: 1px solid darken($col-03, 20%);
     color: #fff;
 }
 .u-button-secondary {
@@ -23,40 +26,50 @@
     border-bottom: 1px solid rgba(117, 117, 117, 0.2);
 }
 .u-button-warning {
-    background-color: #ca3c3c;
-    border-bottom: 1px solid #5f1515;
+    background-color: $col-04;
+    border-bottom: 1px solid darken($col-04, 20%);
     color: #fff4f4;
 }
 
-.input-text {
-    background: #fff;
+input, textarea {
+    background: $term-bg;
+    color: $term-fg;
+    border: 0;
+    font-family: Hack, 'Liberation Mono', 'Roboto Mono', monospace;
+}
+label input, label textarea {
+    border-bottom: 1px solid $col-00;
+    padding-bottom: 1px;
+    &:focus {
+        padding-bottom: 0;
+        border-bottom: 2px solid $col-03;
+    }
 }
 .input-text-label {
-    color: gray;
+    color: $term-fg;
 }
 .input-text--focus {
-    border-color: #42b983;
+    border-color: $col-03;
 }
 .input-text-underline {
-    border-color: #a9a9a9;
+    border-color: $col-00;
 }
 .input-text-underline-active {
-    background: #42b983;
+    background: $col-03;
 }
 
-.u-form .u-input,
-.u-form textarea {
-    border: 1px solid #cccccc;
-    border-bottom: 2px solid #42b983;
-    background: #ffffff;
-    outline-color: #42b983;
+.u-form .u-input {
+    border-bottom: 2px solid $col-03;
+    background: $term-bg;
+    color: $term-fg;
+    outline-color: $col-03;
 }
 
 .u-tabbed-view-tabs {
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid $col-00;
 }
 .u-tabbed-view-tab {
-    border-color: #42b983;
+    border-color: $col-03;
     transition: border-width 0.1s;
     font-weight: bold;
 }

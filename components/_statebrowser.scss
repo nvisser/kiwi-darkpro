@@ -3,9 +3,8 @@
 */
 
 .kiwi-statebrowser {
-    background: #2a2c23;
-    /* this also looks cool, background: #05394a; */
-    color: #e0e0e0;
+    background: $col-01;
+    color: $term-fg;
 }
 
 .kiwi-statebrowser-divider {
@@ -21,25 +20,25 @@
     background: rgba(255,255,255,0.15);
 }
 .kiwi-statebrowser-availablenetworks-link {
-    border-right: 15px solid red;
+    border-right: 15px solid $col-04;
 }
 .kiwi-statebrowser-availablenetworks-link--connected {
-    border-color: green;
+    border-color: $col-03;
 }
 
 .kiwi-statebrowser-channel-notjoined .kiwi-statebrowser-channel-name {
-    color: #d03232;
+    color: darken($term-fg, 25%);
 }
 .kiwi-statebrowser-channel-active .kiwi-statebrowser-channel-name {
-    color: #df6b26;
+    color: $term-fg;
 }
 
 .kiwi-statebrowser-channel-label {
-    background: green;
-    color: #dedede;
+    background: $col-03;
+    color: $term-fg;
 }
 .kiwi-statebrowser-channel-label--highlight {
-    background: #d62323;
+    background: $col-04;
 }
 
 .kiwi-statebrowser-channel-label-transition-enter-active, .kiwi-statebrowser-channel-label-transition-leave-active {
@@ -50,14 +49,14 @@
 }
 
 .kiwi-statebrowser-channel-popup {
-    background: #383838;
-    border: 3px solid #6b6b6b;
+    background: $col-01;
+    border: 3px solid $col-00;
     border-left: none;
 }
 
 .kiwi-statebrowser-newchannel-inputwrap {
     border-radius: 3px;
-    background: #fff;
+    background: $term-bg;
     position: relative;
     opacity: 0.8;
     transition: opacity 0.3s;
@@ -67,5 +66,5 @@
 }
 
 .kiwi-statebrowser-options {
-    background: #383838;
+    background: $term-bg;
 }

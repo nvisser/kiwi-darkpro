@@ -3,8 +3,8 @@
 */
 
 .kiwi-sidebar {
-    background-color: #fff;
-    border-left: 1px solid #dddddd;
+    background-color: $col-01;
+    border-left: 1px solid $col-00;
 }
 
 
@@ -15,4 +15,11 @@
 
 .kiwi-nicklist-info {
     border-color: #ddd;
+}
+
+.kiwi-channelbanlist table tr:nth-child(even) {
+    background-color: $term-bg;
+}
+.kiwi-channelbanlist-table-actions i.fa {
+    cursor: pointer;
 }

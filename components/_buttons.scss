@@ -10,16 +10,17 @@
     }
 }
 .u-button-primary, .u-button-secondary {
-    background-color: #8AE234;
+    background-color: $col-09;
     border: none;
-    border-bottom: 1px solid #0DBC79;
-    color: #393D45;
+    border-bottom: 1px solid darken($col-09, 20%);
+    color: $col-01;
 }
 .u-button-secondary {
+    color: $term-fg;
     border: inherit;
 }
 .u-button-warning {
-    background-color: #ca3c3c;
-    border-bottom: 1px solid #5f1515;
-    color: #fff4f4;
+    background-color: $col-04;
+    border-bottom: 1px solid darken($col-04, 20%);
+    color: $term-fg;
 }

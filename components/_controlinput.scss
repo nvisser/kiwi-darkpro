@@ -10,7 +10,7 @@
     border-right: 1px solid #dddddd;
 }
 .kiwi-controlinput-input-wrap {
-    background: #fff;
+    background: $col-01;
 }
 
 
@@ -18,11 +18,13 @@
 /**
 * Control input (the bottom bar)
 */
-
+.kiwi-autocomplete-item--selected {
+    background: $col-01;
+}
 .kiwi-autocomplete {
     box-shadow: 0 1px 15px rgba(64, 54, 63, 0.25);
     border: 1px solid #CCC;
-    background: #eee;
+    background: $col-01;
 }
 .kiwi-autocomplete-item {
     border-bottom: 1px solid #CCC;

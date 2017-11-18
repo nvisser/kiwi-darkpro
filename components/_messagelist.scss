@@ -17,12 +17,12 @@
     border-left-color: #939393;
 }
 .kiwi-messagelist-message--highlight {
-    background: #e3f1d4;
-    border-left-color: #80ab52;
+    background: $term-bg;
+    border-left-color: $col-03;
 }
 .kiwi-messagelist-message--hover {
-    background: #e3f1d4;
-    border-left-color: #80ab52;
+    background: $col-01;
+    border-left-color: $col-03;
 }
 .kiwi-messagelist-message--info-open {
     background: #f6f6f6;
@@ -49,11 +49,15 @@
 .kiwi-messagelist-message:not(.kiwi-messagelist-message--unread) + .kiwi-messagelist-message--unread {
 }
 .kiwi-messagelist-message--unread {
-    border-left-color: #d4e5f1;
+    border-left-color: $col-11;
 }
 
 .kiwi-messagelist-seperator:after {
-    border-color: #ddd;
+    border-color: $col-00;
+}
+.kiwi-messagelist-seperator span {
+    background: $col-01;
+    color: $term-fg;
 }
 .kiwi-messagelist-seperator + .kiwi-messagelist-message {
     border-top: none;
@@ -64,37 +68,38 @@
 
 /* Topic changes */
 .kiwi-messagelist-message-topic {
-    background: #FFF5AB;
-    border: 1px solid #F3C572;
+    background: lighten($term-bg, 5%);
+    border: 1px solid $term-bg;
     border-radius: 5px;
 }
 
 .kiwi-messagelist-message-traffic-join {
-    color: #009900;
+    color: $col-03;
 }
 .kiwi-messagelist-message-traffic-quit,
 .kiwi-messagelist-message-traffic-part,
 .kiwi-messagelist-message-traffic-kick {
-    color: #900;
+    color: $col-04;
 }
 .kiwi-messagelist-message-traffic-quit .kiwi-nick:before,
 .kiwi-messagelist-message-traffic-part .kiwi-nick:before, {
-    color: #900;
+    color: $col-04;
     content: "← ";
 }
 .kiwi-messagelist-message-action .kiwi-messagelist-body {
-    color: #009900;
+    color: $col-03;
 }
 
 /* MOTD */
 .kiwi-messagelist-message-motd {
-    color: #666;
+    color: $term-fg;
 }
 
 /* Errors */
 .kiwi-messagelist-message-error {
-    background: #f1d4d4;
-    border-left-color: #ab5252;
+    background: lighten($col-04, 20%);
+    border-left-color: $col-04;
+    color: $term-bg;
 }
 
 /**
@@ -102,10 +107,11 @@
 */
 
 .kiwi-messageinfo {
-    background: #f6f6f6;
-    border-bottom: 2px #dddddd solid;
-    border-top: 1px #dddddd dashed;
+    background: $col-00;
+    color: $col-01;
+    border-bottom: 2px darken($col-00, 20%) solid;
+    border-top: 1px darken($col-00, 20%) dashed;
 }
 .kiwi-messageinfo-urls {
-    border-top: 1px solid #dddddd;
+    border-top: 1px solid darken($col-00, 20%);
 }

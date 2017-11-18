@@ -2,12 +2,13 @@
 * Channel list
 */
 .kiwi-channellist table tbody tr:nth-child(even) {
-    background-color: #f9f9f9;
+    background-color: $col-01;
 }
 .kiwi-channellist table tbody tr {
     border-top: 1px solid lightgray;
 }
 .kiwi-channellist-users {
+    color: $term-bg;
     width: 80px;
     background: #7dbd67;
     padding: 2px 0;

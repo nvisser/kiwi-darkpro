@@ -3,12 +3,15 @@
 */
 
 .kiwi-networksettings-error {
-    border: 1px dashed #d86f6f;
+    border: 1px dashed lighten($col-04, 20%);
 }
 .kiwi-networksettings-danger h3 {
-    background: #d86f6f;
+    background: $col-04;
 }
 
+.kiwi-networksettings-advanced h3 {
+    cursor: pointer;
+}
 
 
 /**
