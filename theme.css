@@ -118,7 +118,7 @@
   color: #2d3139; }
 
 .u-button-secondary {
-  color: #C8C8C8;
+  color: #C8C8C8 !important;
   border: inherit; }
 
 .u-button-warning {
@@ -138,6 +138,36 @@
 
 .kiwi-header-buffersettings {
   border-top: 1px solid #dddddd; }
+
+/**
+* Control input
+*/
+.kiwi-controlinput-user {
+  border-right: 1px solid #e5e5e5; }
+
+.kiwi-controlinput-input-wrap {
+  background: #2d3139; }
+
+/**
+* Control input (the bottom bar)
+*/
+.kiwi-autocomplete-item--selected {
+  background: #2d3139; }
+
+.kiwi-autocomplete {
+  box-shadow: 0 1px 15px rgba(64, 54, 63, 0.25);
+  border: 1px solid #e5e5e5;
+  background: #2d3139; }
+
+.kiwi-autocomplete-item {
+  background: #2d3139;
+  border-bottom: 1px solid #e5e5e5; }
+
+.kiwi-autocomplete-item--selected {
+  background: #282C34; }
+
+.kiwi-autocomplete-item {
+  cursor: pointer; }
 
 a, .u-link {
   color: #98c379; }
@@ -159,7 +189,7 @@ a, .u-link {
   background-color: #98c379;
   border: none;
   border-bottom: 1px solid #649442;
-  color: #fff; }
+  color: #C8C8C8; }
 
 .u-button-secondary {
   background: rgba(117, 117, 117, 0.07);
@@ -168,7 +198,7 @@ a, .u-link {
 .u-button-warning {
   background-color: #f14c4c;
   border-bottom: 1px solid #c71010;
-  color: #fff4f4; }
+  color: #f8abab !important; }
 
 input, textarea {
   background: #282C34;
@@ -245,32 +275,6 @@ label input, label textarea {
 
 .kiwi-container-toggledraw-sidebar--disabled {
   color: #b8babd; }
-
-/**
-* Control input
-*/
-.kiwi-controlinput-user {
-  border-right: 1px solid #dddddd; }
-
-.kiwi-controlinput-input-wrap {
-  background: #2d3139; }
-
-/**
-* Control input (the bottom bar)
-*/
-.kiwi-autocomplete-item--selected {
-  background: #2d3139; }
-
-.kiwi-autocomplete {
-  box-shadow: 0 1px 15px rgba(64, 54, 63, 0.25);
-  border: 1px solid #CCC;
-  background: #2d3139; }
-
-.kiwi-autocomplete-item {
-  border-bottom: 1px solid #CCC; }
-
-.kiwi-autocomplete-item--selected {
-  background: #D1EACD; }
 
 /**
 * Message list
@@ -385,11 +389,11 @@ label input, label textarea {
 * Alias settings
 */
 .kiwi-settings-aliases-input {
-  border-color: #cccccc; }
+  border-color: #e5e5e5; }
 
 .kiwi-settings-aliases-help {
-  background: #f3f2f2;
-  border: 1px dashed gray; }
+  background: #2d3139;
+  border: 1px dashed #e5e5e5; }
 
 .kiwi-settings-aliases-help em {
   color: #ab1010;
@@ -446,7 +450,7 @@ label input, label textarea {
 
 .kiwi-statebrowser-channel-label {
   background: #98c379;
-  color: #C8C8C8; }
+  color: #282C34; }
 
 .kiwi-statebrowser-channel-label--highlight {
   background: #f14c4c; }

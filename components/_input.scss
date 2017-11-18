@@ -19,7 +19,7 @@ a, .u-link {
     background-color: $col-03;
     border: none;
     border-bottom: 1px solid darken($col-03, 20%);
-    color: #fff;
+    color: $term-fg;
 }
 .u-button-secondary {
     background: rgba(117, 117, 117, 0.07);
@@ -28,7 +28,7 @@ a, .u-link {
 .u-button-warning {
     background-color: $col-04;
     border-bottom: 1px solid darken($col-04, 20%);
-    color: #fff4f4;
+    color: lighten($col-04, 20%) !important;
 }
 
 input, textarea {

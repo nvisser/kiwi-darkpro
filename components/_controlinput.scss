@@ -7,7 +7,7 @@
 .kiwi-controlinput-inner {
 }
 .kiwi-controlinput-user {
-    border-right: 1px solid #dddddd;
+    border-right: 1px solid $col-00;
 }
 .kiwi-controlinput-input-wrap {
     background: $col-01;
@@ -23,12 +23,17 @@
 }
 .kiwi-autocomplete {
     box-shadow: 0 1px 15px rgba(64, 54, 63, 0.25);
-    border: 1px solid #CCC;
+    border: 1px solid $col-00;
     background: $col-01;
 }
 .kiwi-autocomplete-item {
-    border-bottom: 1px solid #CCC;
+    background: $col-01;
+    border-bottom: 1px solid $col-00;
 }
 .kiwi-autocomplete-item--selected {
-    background: #D1EACD;
+    background: $term-bg;
+}
+
+.kiwi-autocomplete-item {
+    cursor: pointer;
 }
