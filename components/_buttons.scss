@@ -15,7 +15,7 @@
     border-bottom: 1px solid darken($col-09, 20%);
     color: $col-01;
     &:hover {
-        color: $col-00;
+        color: $col-00 !important;
     }
 }
 .u-button-secondary {
