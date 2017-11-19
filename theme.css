@@ -461,25 +461,25 @@ label input, label textarea {
 * User box
 */
 .kiwi-userbox-usermask {
-  color: #9e9e9e; }
+  color: #C8C8C8; }
 
 .kiwi-userbox-whois {
-  background: #ffffff;
-  color: #2c3e50;
-  border: 1px dashed #9e9e9e; }
+  background: #282C34;
+  color: #C8C8C8;
+  border: 1px dashed #e5e5e5; }
 
 .kiwi-userbox-actions-op {
-  border-top: 1px solid #9e9e9e; }
+  border-top: 1px solid #e5e5e5; }
 
 /**
 * Self user box
 */
 .kiwi-selfuser-actions {
-  border-top: 1px solid #dddddd; }
+  border-top: 1px solid #e5e5e5; }
 
 .kiwi-controlinput-selfuser {
-  background: #f6f6f6;
-  border: 1px solid #dddddd; }
+  background: #282C34;
+  border: 1px solid #e5e5e5; }
 
 /**
 * Welcome startup screen
