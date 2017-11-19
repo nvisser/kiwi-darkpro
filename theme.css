@@ -262,7 +262,7 @@ label input, label textarea {
 * Message list
 */
 .kiwi-wrap--monospace .kiwi-messagelist {
-  font-family: 'Roboto Mono', monospace; }
+  font-family: Hack, 'Liberation Mono', 'Roboto Mono', monospace; }
 
 .kiwi-messagelist-message {
   /* some message highlights add a left border so add a default invisble one to keep them inline */
@@ -294,11 +294,15 @@ label input, label textarea {
 .kiwi-messagelist-message-repeat {
   border-top: none; }
 
-.kiwi-messagelist-message-repeat .kiwi-messagelist-nick,
-.kiwi-messagelist-message-repeat .kiwi-messagelist-time {
-  /* Set the opacity instead of making it invisible so that it's still selectable when copying text */
-  opacity: 0;
-  cursor: default; }
+.kiwi-messagelist-message--compact .kiwi-messagelist-nick:not([data-nick=''])::before {
+  content: '<';
+  color: #666666; }
+.kiwi-messagelist-message--compact .kiwi-messagelist-nick:not([data-nick=''])::after {
+  content: '>';
+  color: #666666; }
+
+.kiwi-messagelist-message--compact .kiwi-messagelist-time {
+  float: left; }
 
 .kiwi-messagelist-message--unread {
   border-left-color: #29b8db; }
@@ -399,7 +403,7 @@ label input, label textarea {
 .kiwi-channelbanlist table tr:nth-child(even) {
   background-color: #282C34; }
 
-.kiwi-channelbanlist-table-actions i.fa {
+.kiwi-channelbanlist-table-actions .fa {
   cursor: pointer; }
 
 /**
@@ -501,7 +505,7 @@ label input, label textarea {
   color: #C8C8C8;
   background-color: #282C34; }
 
-::selection, ::-moz-selection, *::selection, *::-moz-selection {
+::selection, ::-moz-selection {
   color: #D3D3D3;
   background-color: #5E6167; }
 

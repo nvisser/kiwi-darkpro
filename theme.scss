@@ -27,7 +27,7 @@
     // --kiwi-nick-brightness: 40;
 }
 
-::selection, ::-moz-selection, *::selection, *::-moz-selection {
+::selection, ::-moz-selection {
     color: $term-hl-fg;
     background-color: $term-hl-bg;
 }
