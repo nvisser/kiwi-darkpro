@@ -43,6 +43,19 @@
 .kiwi-messagelist-message-repeat {
     border-top: none;
 }
+.kiwi-messagelist-message--compact .kiwi-messagelist-nick:not([data-nick='']) {
+    &::before {
+        content: '<';
+        color: $col-14;
+    }
+    &::after {
+        content: '>';
+        color: $col-14;
+    }
+}
+.kiwi-messagelist-message--compact .kiwi-messagelist-time {
+    float: left;
+}
 .kiwi-messagelist-message-repeat .kiwi-messagelist-nick,
 .kiwi-messagelist-message-repeat .kiwi-messagelist-time {
     /* Set the opacity instead of making it invisible so that it's still selectable when copying text */
