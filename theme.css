@@ -176,6 +176,9 @@
 .kiwi-autocomplete-item {
   cursor: pointer; }
 
+.kiwi-ircinput, .kiwi-controlinput-input {
+  cursor: text; }
+
 a, .u-link {
   color: #98c379; }
   a:hover, .u-link:hover {
