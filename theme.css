@@ -362,6 +362,13 @@ label input, label textarea {
 .kiwi-messageinfo-urls {
   border-top: 1px solid #b2b2b2; }
 
+.kiwi-messagelist-message-linkhandle {
+  cursor: pointer; }
+
+.embedly-card {
+  background: #e5e5e5;
+  color: #2d3139; }
+
 /**
 * Network settings
 */

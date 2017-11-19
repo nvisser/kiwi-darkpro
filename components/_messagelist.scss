@@ -125,3 +125,12 @@
 .kiwi-messageinfo-urls {
     border-top: 1px solid darken($col-00, 20%);
 }
+
+.kiwi-messagelist-message-linkhandle {
+    cursor: pointer;
+}
+
+.embedly-card {
+    background: $col-00;
+    color: $col-01;
+}
