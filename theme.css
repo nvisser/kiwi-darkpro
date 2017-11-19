@@ -147,7 +147,8 @@
 * Control input
 */
 .kiwi-controlinput-active-tool {
-  background: #2d3139; }
+  background: #2d3139;
+  border: 1px solid #e5e5e5; }
 
 .kiwi-controlinput-user {
   border-right: 1px solid #e5e5e5; }
