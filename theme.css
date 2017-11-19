@@ -146,6 +146,9 @@
 /**
 * Control input
 */
+.kiwi-controlinput-active-tool {
+  background: #2d3139; }
+
 .kiwi-controlinput-user {
   border-right: 1px solid #e5e5e5; }
 
