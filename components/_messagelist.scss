@@ -56,12 +56,6 @@
 .kiwi-messagelist-message--compact .kiwi-messagelist-time {
     float: left;
 }
-.kiwi-messagelist-message-repeat .kiwi-messagelist-nick,
-.kiwi-messagelist-message-repeat .kiwi-messagelist-time {
-    /* Set the opacity instead of making it invisible so that it's still selectable when copying text */
-    opacity: 0;
-    cursor: default;
-}
 
 .kiwi-messagelist-message:not(.kiwi-messagelist-message--unread) + .kiwi-messagelist-message--unread {
 }
