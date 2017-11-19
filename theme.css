@@ -261,6 +261,9 @@ label input, label textarea {
 /**
 * Message list
 */
+.kiwi-wrap--monospace .kiwi-messagelist {
+  font-family: 'Roboto Mono', monospace; }
+
 .kiwi-messagelist-message {
   /* some message highlights add a left border so add a default invisble one to keep them inline */
   border-left: 3px solid transparent; }
@@ -497,9 +500,6 @@ label input, label textarea {
   font-family: 'Roboto', sans-serif;
   color: #C8C8C8;
   background-color: #282C34; }
-
-.kiwi-wrap--monospace {
-  font-family: 'Roboto Mono', monospace; }
 
 ::selection, ::-moz-selection, *::selection, *::-moz-selection {
   color: #D3D3D3;

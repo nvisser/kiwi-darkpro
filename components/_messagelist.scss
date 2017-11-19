@@ -2,6 +2,10 @@
 * Message list
 */
 
+.kiwi-wrap--monospace .kiwi-messagelist {
+    font-family: 'Roboto Mono', monospace;
+}
+
 .kiwi-messagelist-message {
     // border-top: 1px solid #f7f5f5;
     /* some message highlights add a left border so add a default invisble one to keep them inline */
