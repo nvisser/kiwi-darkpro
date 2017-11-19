@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /**
 * One Dark Kiwi IRC Theme
 * @author Niek Visser <niek@bcome.nl>* 
@@ -333,8 +332,7 @@ label input, label textarea {
 
 .kiwi-messagelist-message-traffic-quit .kiwi-nick:before,
 .kiwi-messagelist-message-traffic-part .kiwi-nick:before {
-  color: #f14c4c;
-  content: "← "; }
+  color: #f14c4c; }
 
 .kiwi-messagelist-message-action .kiwi-messagelist-body {
   color: #98c379; }
